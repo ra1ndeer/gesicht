@@ -8,3 +8,8 @@ Input image:
 Output image:
 
 ![renoir faces](renoir_faces.jpg)
+
+
+Input image             |  Output image
+:-------------------------:|:-------------------------:
+![renoir original](renoir.jpg)  |  ![renoir faces](renoir_faces.jpg)
