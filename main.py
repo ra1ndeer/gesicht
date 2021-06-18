@@ -14,7 +14,8 @@ def load_image(image_path):
 
 # draws the boxes around the faces and saves the figure
 def save_image(img, boxes, probs, output_file, add_probs=False):
-    fig, ax = plt.subplots(figsize=(img.size[0] / 100, img.size[1] / 100))
+    px = 1/plt.rcParams['figure.dpi']  # pixel in inches
+    fig, ax = plt.subplots(figsize=(img.size[0]*px, img.size[1]*px))
     ax.imshow(img)
     ax.axis("off")
 
